@@ -11,6 +11,7 @@
 		232C3409297D640D00442E2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C3408297D640D00442E2F /* ContentView.swift */; };
 		232C340B297D640F00442E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232C340A297D640F00442E2F /* Assets.xcassets */; };
 		232C340F297D640F00442E2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232C340E297D640F00442E2F /* Preview Assets.xcassets */; };
+		232C3417297D646900442E2F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C3416297D646900442E2F /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		232C340A297D640F00442E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232C340C297D640F00442E2F /* NativePopovers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NativePopovers.entitlements; sourceTree = "<group>"; };
 		232C340E297D640F00442E2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		232C3416297D646900442E2F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		232C3405297D640D00442E2F /* NativePopovers */ = {
 			isa = PBXGroup;
 			children = (
+				232C3415297D646000442E2F /* Views */,
 				232C3406297D640D00442E2F /* NativePopoversApp.swift */,
 				232C3408297D640D00442E2F /* ContentView.swift */,
 				232C340A297D640F00442E2F /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				232C340E297D640F00442E2F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		232C3415297D646000442E2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				232C3416297D646900442E2F /* Home.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				232C3409297D640D00442E2F /* ContentView.swift in Sources */,
+				232C3417297D646900442E2F /* Home.swift in Sources */,
 				232C3407297D640D00442E2F /* NativePopoversApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
